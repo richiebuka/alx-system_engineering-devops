@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lRAa | grep -d read | wc -l
+find . -mindepth 1 -type d | wc -l
