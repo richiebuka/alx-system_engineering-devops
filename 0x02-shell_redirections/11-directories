@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -print | wc -l
+ls -lRAa | grep -d read | wc -l
