@@ -1,1 +1,2 @@
-Just Starting
+#!/bin/bash
+echo "Hello World" \n
