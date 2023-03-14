@@ -1,2 +1,2 @@
 #!/bin/bash
-awk -F":" '{print $6}' /etc/passwd | sort
+grep -oP '^[^:]+|.*:\K[^:]+(?=:[^:]+)' /etc/passwd | perl -pe 's/\n/ : / if $.%2'
