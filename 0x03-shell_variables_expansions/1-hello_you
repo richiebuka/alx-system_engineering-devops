@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "hello $User"
+echo -en "hello\t$User"
